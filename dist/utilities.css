@@ -10,6 +10,7 @@
 }
 body{
     background-color: #000000;
+    overflow-x: hidden;
   
 }
 .ri-menu-3-line{
@@ -587,6 +588,14 @@ width: 400px;
         padding: 10px;
     margin: -10px;
     }
+    .menu-icon i{
+        font-size: medium;
+        margin-top: 10px;
+        
+        
+    
+       
+    }
 }
   
 
@@ -619,8 +628,11 @@ width: 400px;
     font-size: smaller;
     margin-left: -50px;
 }
-.menu-icon{
+.menu-icon i{
     font-size: small;
+    margin-top: 10px;
+    
+
    
 }
 

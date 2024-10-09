@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travelling_Website</title>
     <link rel="stylesheet" href="Output.css">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
@@ -27,12 +27,12 @@
              <label for="menu-toggle" class="menu-icon absolute"><i class="ri-menu-3-line"></i></label>
              <nav id="sidebar" class="nav_links">
                  <ul class="flex p-2 m-2 text-white">
-                     <li class="link"><a href="#">Home</a></li>
-                     <li class="link"><a href="#">Features</a></li>
-                     <li class="link"><a href="#">About</a></li>
-                     <li class="link"><a href="#">Offers</a></li>
-                     <li class="link"><a href="#">Seats</a></li>
-                     <li class="link"><a href="#">Destination</a></li>
+                     <li class="link"><a href="#home">Home</a></li>
+                     <li class="link"><a href="#features">Features</a></li>
+                     <li class="link"><a href="#about">About</a></li>
+                     <li class="link"><a href="#offers">Offers</a></li>
+                     <li class="link"><a href="#seats">Seats</a></li>
+                     <li class="link"><a href="#destinations">Destination</a></li>
                  </ul>
              </nav>
                 
@@ -45,7 +45,7 @@
           
         </div>
     </section>
-    <section class="hero-area relative">
+    <section class="hero-area relative" id="home">
       <div class="text absolute bottom-30 left-0 w-full h-full flex items-center justify-center">
     
          <h1 class= "text-white text-4xl font-bold rounded z-10">
@@ -66,7 +66,7 @@
  
      
     </section>
-    <section class="section_container">
+    <section class="section_container" id="destinations" >
 <div class="booking_container mt-5 ml-10 mr-10">
     <div class="booking_nav max-w-[600px] m-auto flex items-center">
         <span>
@@ -151,7 +151,7 @@
     </form>
 </div>
 </section>
-<section class="section_container plan_container ml-10 mr-10">
+<section class="section_container plan_container ml-10 mr-10" id="features">
     <p class="subheader mb-[-5px] text-center font-semibold text-[#B5D7E8] m-5">TRAVEL SUPPORT</p>
     <h2 class="section_header text-center leading-normal text-[3rem] p-10 font-bold text-white">Plan your travel with confidence</h2>
     <p class="description text-center text-[#B5D7E8]">
@@ -199,7 +199,7 @@
     </div>
     </div>
 </section>
-<section class= "memories bg-[#0E1F28] mt-[8%] pt-[4%]">
+<section class= "memories bg-[#0E1F28] mt-[8%] pt-[4%]" id="seats">
     <div class = "section_container memories_container mt-5 ml-10 mr-10 p-10">
         <div class="section_header flex justify-between items-center gap-2">
           <h2 class="text-white text-[3rem]  text-center">
@@ -245,7 +245,7 @@
 </div>
 </section>
 <section class="section_container lounge_container grid grid-cols-2 gap-2  mt-[8%]
-pt-[4%]">
+pt-[4%]" id="offers">
     <div class="lounge_image relative">
         <img src="Assets/lounge-1.jpg" alt="lounge">
         <img src="Assets/lounge-2.jpg" alt="lounge">
@@ -341,7 +341,7 @@ pt-[4%]">
 </div>
 
 </section>
-<section class="section_container subscribe_container bg-[#0E1F28]  p-10 mt-[12%]">
+<section class="section_container subscribe_container bg-[#0E1F28]  p-10 mt-[12%]" id="about">
     <div class="subscribe text-center flex justify-center items-center flex-col">
 
             <h2 class="section_header text-[3rem] font-bold  text-white  text-center mt-[10px]">Subscribe our newsletter and get the latest news</h2>
